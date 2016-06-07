@@ -1,0 +1,112 @@
+®PT2¯NOTES REGARDING THE DATA IN SUBDIRECTORY "CHAP2.DAT":
+
+I.  The following data files in the subdirectory CHAP2.DAT each contain
+monthly return data for 120 observations during the period January
+1978 through December 1987 (see text chapter 2 for full company names):
+
+    MOBIL  TEXACO   IBM    DEC  DATGEN   CONED    PSNH  WEYER  BOISE
+    MOTOR  TANDY  PANAM  DELTA  CONTIL  CITCRP  GERBER  GENMIL
+
+In addition, there is a monthly return data series for the market as a
+whole, called MARKET, and for the 30-day US Treasury Bill - a riskfree 
+asset called RKFREE.  For both MARKET and RKFREE, there are 120 monthly
+observations covering the January 1978 thru December 1987 time period.
+
+However, there are several data series and data files that cover 
+different time periods:
+
+    CONOCO, a data series in the EVENTS data file, has monthly returns
+        data covering only the January 1976 through September 1981 
+        time period (when it was taken over by DuPont).  Hence it has 
+        only 69 observations.  More information on EVENTS is found 
+        below.
+
+    APM, which has a number of data files covering the December
+        1977 thru December 1987 time period (121 observations).
+        More information on APM is found below.
+
+    EVENTS, which covers January 1976 through December 1985.  More
+        information on EVENTS and its data files is found below.
+
+    GOLD, which covers January 1976 through December 1985.  More
+        information on GOLD and its data files is found below.
+
+All other files have 120 observations.
+
+II. Each data file giving returns represents the monthly return on a
+    financial asset (common stocks, as well as a MARKET index, a 
+    "riskfree" (30-day T-bills) series called RKFREE, and the GOLD
+    mineral), and has the following format:
+
+        The first line indicates the name of the company whose return
+            is found in that file, and the time period.  YOU MAY NEED
+            TO EDIT THIS LINE WITH AN EDITOR OR WORD PROCESSOR TO 
+            MATCH THE NEEDS OF YOUR STATISTICAL SOFTWARE.  SEE SECTION
+            1.2 OF CHAPTER 1 IN THE TEXT FOR FURTHER DETAILS.
+         
+        The next 120 lines (except as noted above, when the number of
+            observations differs from 120) give monthly returns for
+            the company or asset named in the first line, including
+            any dividends paid, as in equation (2.1) in the text.  
+            Note that the return is a monthly one in monthly rates, 
+            i.e. it is not an annualized return.
+
+III.  The APM file contains supplementary data for use in running a
+    regression based on Ross' Arbitrage Pricing Model.  The variables
+    in this file cover December 1977 through December 1987, and
+    therefore each include 121 observations.  The variables are:
+
+        POIL       ($)  Nominal price per barrel of domestic crude oil,
+                   Domestic First Purchase Price
+        FRBIND     Federal Reserve Board index of industrial production,
+                   1972=100, Total Industry Industry Production, series
+                   is seasonally adjusted
+        CPI        Consumer Price Index, All Items (1967=100)
+
+The source of the data series for FRBIND and CPI is various annual
+    reports of the Economic Report of the President, Washington, DC:
+    US Government Printing Office.  For POIL, the data source is the
+    Monthly Energy Review published by the US Department of Energy,
+    various July issues.
+
+IV. The datafile named EVENTS contains data over the January 1976 - December
+    1985 (not January 1978 - December 1987) time period.  Data series on
+    monthly returns are from the CRSP source noted above.  There are 120
+    monthly observations.  Variables in EVENTS are:
+
+        DATE       YYMM - The date -- the first two digits are the year
+                   (e.g., 1978 is 78) and the next two digits are the
+                   month (January is 01, December is 12)
+        GPU        General Public Utilities
+        DOW        Dow Chemical Company
+        DUPONT     E. I. DuPont Company
+        MARK76     The CRSP overall market rate of return, which
+                   differs from MARKET only in the time interval --
+                   MARK76 is 1/76 thru 12/85, while MARKET is 1/78
+                   thru 12/87.
+        RKFR76     The riskfree 30-day rate of return on US Treasury
+                   Bills, which differs from MARKET only in the time
+                   interval - RKFR76 is 1/76 thru 12/85, while RKFREE
+                   is 1/78 thru 12/87.
+
+    Two other data series in this file contains only 69 observations, 
+    from 1/76 through 9/81.  They are DATE1 and CONOCO:
+
+        DATE1      Just as in DATE above, but having only 69 observa-
+                   tions from 1/76 thru 9/81
+        CONOCO     Conoco (only 69 observations - 1/76 thru 9/81
+
+V.  Finally, the data file called GOLD contains three data series, all
+    covering the January 1976 thru December 1985 time period.  All 
+    series in this data file have 120 observations.  The data series in
+    the GOLD data file include:
+
+        GOLD       The percent change in the price of gold over the month
+        MARK76     The CRSP overall market rate of return - see description
+                   in the EVENTS data file discussed above
+        RKFR76     The riskfree 30-day monthly rate of return on US Treasury
+                   bills -- see description in the EVENTS data file discussed
+                   above
+
+    The source of the GOLD data is various issues of the Wall Street Journal.
+

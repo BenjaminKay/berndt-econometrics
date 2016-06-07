@@ -1,0 +1,41 @@
+The contents of files in the subdirectory CHAP6.DAT is as follows:
+
+Filename:  KOPCKE
+
+     First Panel:
+
+DATE      Year and Quarter (YYYYQ)
+JS        Implicit Price Deflator for Structures (1982=1.00)
+JE        Implicit Price Deflator for Equipment (1982=1.00)
+F         Cash Flow of of Nonfinancial Corporate Business in
+          Millions of Current Dollars
+IS        Gross Private Domestic Investment in Non-Residential
+          Structures in Millions of 1982 Dollars;
+IE        Gross Private Domestic Investment in Producers' Durable
+          Equipment in Millions of 1982 Dollars
+KELAG     The Once-Lagged Capital Stock of Producers' Durable
+          Equipment in Millions of 1982 Dollars
+KSLAG     The Once-Lagged Capital Stock of Non-Residential
+          Structures in Millions of 1982 Dollars
+Y         Gross Domestic Business Product in Millions of 1982
+          Dollars 
+
+     Second Panel:
+
+TIME      Year and Quarter (YYYYQ)  
+U         Federal Reserve Board Capacity Utilization Rate for US 
+          Manufacturing
+Q         Tobin's q -- the Ratio of the Market Value of Non-
+          Financial Corporations to the Replacement Value of
+          their Net Assets
+CS        The Real User Cost of Capital Services for Non-Residen- 
+          tial Structures (Note:  Real, not nominal)
+CE        The Real User Cost of Capital Services for Producers'
+          Durable Equipment (Note:  Real, not nominal)
+
+Number of Observations:  140
+
+Time Period:  1952:1 - 1986:4
+
+Source:  Richard W. Kopcke, with assistance from George Houlihan
+

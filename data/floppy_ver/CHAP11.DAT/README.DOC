@@ -1,0 +1,42 @@
+Filename: MROZ
+
+THE MROZ DATA FILE IS TAKEN FROM THE 1976 PANEL STUDY OF INCOME DYNAMICS, AND IS BASED ON DATA FOR THE PREVIOUS YEAR, 1975.  OF THE 753 OBSERVATIONS, THE FIRST 428 ARE FOR WOMEN WITH POSITIVE HOURS WORKED IN 1975, WHILE THE REMAINING 325 OBSERVATIONS ARE FOR WOMEN WHO DID NOT WORK FOR PAY IN 1975.  A MORE COMPLETE DISCUSSION OF THE DATA IS FOUND IN MROZ [1987], APPENDIX 1. THE DATA SET CONSISTS OF 753 OBSERVATIONS ON 19 VARIABLES:
+
+1.  LFP   A dummy variable = 1 if woman worked in 1975, else 0
+
+2.  WHRS  Wife's hours of work in 1975
+
+3.  KL6   Number of children less than 6 years old in household
+
+4.  K618  Number of children between ages 6 and 18 in household
+
+5.  WA    Wife's age
+
+6.  WE    Wife's educational attainment, in years
+
+7.  WW    Wife's average hourly earnings, in 1975 dollars
+
+8.  RPWG  Wife's wage reported at the time of the 1976 interview (not the same as the 1975 estimated wage).  To use the subsample with this wage, one needs to select 1975 workers with LFP=1, then select only those women with non-zero RPWG.  Only 325 women work in 1975 and have a non-zero RPWG in 1976.
+
+9.  HHRS  Husband's hours worked in 1975
+
+10. HA    Husband's age
+
+11. HE    Husband's educational attainment, in years
+
+12. HW    Husband's wage, in 1975 dollars
+
+13. FAMINC  Family income, in 1975 dollars.  This variable is used to construct the property income variable.
+
+14. MTR   This is the marginal tax rate facing the wife, and is taken from published federal tax tables (state and local income taxes are excluded).  The taxable income on which this tax rate is calculated includes Social Security, if applicable to wife.
+
+15. WMED  Wife's mother's educational attainment, in years
+
+16. WFED  Wife's father's educational attainment, in years
+
+17. UN    Unemployment rate in county of residence, in percentage points.  This taken from bracketed ranges.
+
+18. CIT   Dummy variable = 1 if live in large city (SMSA), else 0
+
+19. AX    Actual years of wife's previous labor market experience
+

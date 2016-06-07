@@ -1,0 +1,40 @@
+The contents of files in the subdirectory CHAP7.DAT is as follows:
+
+Filename:  NERC
+
+YEAR      Year
+KWH       Kilowatt Hours of Electricity Consumption -- in millions of KWH
+PELEC     Price of Electricity per KWH in Constant 1972 Cents Per KWH
+GNP       Gross National Product in Billions of Constant 1972 Dollars
+NSF       NSF Average Annual Growth Rate Forecast, in Percentage Points,
+          Using Data Up Through and Including the Current Year.  
+
+Note that the NSF variable has non-zero values only for 1973 through 1984.  The source of the electricity data is US Department of Energy, Energy Information Administration, Annual Review of Energy.  Updated values of these variables are available in the more recent editions.  For 1985 and 1986, values of PELEC and KWH are 2.91 and 2.83 (PELEC - using the conversion rate of $1 in 1972 equals $2.07 in 1982), and 2310 and 2377 (KWH).  Data on real GNP were taken from the US Department of Commerce monthly publication, Business Conditions Digest.  Updated values are available in recent editions.
+
+Number of Observations: 34 (except for NSF, which has 12 non-zero obserations)
+
+Filename:  UKELEC
+
+The data is as follows:
+
+CUST      Average number of consumers with two-part tariffs in 1937-38, in 
+          thousands
+INC       Average income of two-part consumers, in pounds per year
+MC4       The running charge (marginal cost) on domestic two-part tariffs in 
+          1933-34, in pence per KWH
+MC6       The running charge (marginal cost) on domestic two-part tariffs in
+          1935-36, in pence per KWH
+MC8       The running charge (marginal cost) on domestic two-part tariffs in
+          1937-38, in pence per KWH
+GAS6      The marginal price of gas in 1935-36, in pence per therm
+GAS8      The marginal price of gas in 1937-38, in pence per therm
+KWH       Consumption on domestic two-part tariffs per consumer in 1937-38, in
+          kilowatt hours
+CAP       The average holdings (capacity) of heavy electric equipment bought
+          on hire purchase (leased) by domestic two-part consumers in 1937-38,
+          in kilowatts 
+EXPEN     The average total expenditure on electricity by two-part consumers 
+          in 1937-38, in pounds
+
+Number of Observations: 42 
+

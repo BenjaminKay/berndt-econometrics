@@ -1,0 +1,80 @@
+These are the contents of datafiles in the directory CHAP3.DAT 
+
+Filename: TIO2
+
+Variables in this file are:
+
+YEART   Year
+PRODT   Current Production
+CUMT    Cumulative Production
+UCOSTT  Unit Cost (undeflated)
+DEFL    Deflator
+
+Number of Observations: 16
+
+Source: Federal Trade Commission Docket No. 9108, Washington,
+        D.C., US Gov't Printing Office; data described in detail
+        in Pankaj Ghemawat, "DuPont in Titantium Dioxide," Cam-
+        bridge, MA: Harvard Business School, Case Study 9-385-
+        140, 1984; revised, June 1986.
+
+Filename: POLY
+
+Variables in this file are:
+
+YEARP    Year 
+UCOSTP   Deflated Unit Cost
+PRODP    Current Production 
+CUMP     Cumulative Production
+
+Number of Observations: 13
+
+Source:  This data set has been in the public domain for years,
+         and is usually attributed to an early study of the
+         Boston Consulting Group.
+
+Filename: WEIRD
+
+Variable Names:  Y  X1  X2
+
+Number of Observations: 15
+
+Source: David Hamilton, "Sometimes R2 > r2yx1 + r2yx2:  Correlated Variables Are Not Always Redundant," THE AMERICAN STATISTICIAN, Vol. 41, No. 2, May 1987, pp. 129-132.
+
+Filename: NERLOV
+
+The variables in this file are:
+
+ORDER     The number of the observation, ascending in order from
+          smallest in size to largest
+COSTS     Total Production Costs in Millions of Dollars
+KWH       Kilowatt hours of output, in billions
+PL        The wage rate per hour 
+PF        The price of fuels in cents per million BTU's 
+PK        The rental price index of capital
+
+Number of Observations: 145
+
+Source: See Nerlove reference in text.
+
+Filename: UPDATE
+
+This is the Nerlove 1955 data base updated to 1970, used in the
+Journal of Political Economy article by Laurits Christensen and
+William Greene.  The data have been provided by William Greene. 
+The number of firms has fallen, from 145 to 99.  Moreover, the
+firms are not ordered in terms of ascending size of output.  
+
+The variables in this file are:
+
+OBSNO     The number of the observation 
+COST70    Total cost in millions of current dollars
+KWH70     Millions of kilowatt hours of output
+PL70      The price of labor
+PK70      The rental price index of capital 
+PF70      The price index for fuels 
+SL        The cost share of labor
+SK        The cost share of capital
+SF        The cost share of fuel
+
+Number of Observations: 99

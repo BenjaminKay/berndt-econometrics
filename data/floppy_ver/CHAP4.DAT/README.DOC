@@ -1,0 +1,72 @@
+These are the contents of datafiles in the sub-directory CHAP4.DAT:
+
+Filename:  CHOW
+
+THIS DATA SET CONTAINS THE FOLLOWING VARIABLES:
+
+VOLUME  Number of computers installed in the year
+RENT    Monthly rental fee
+BINARY  Number of binary digits in a word
+DIGITS  Number of bytes in each binary digit
+WORDS   Number of words in main memory, in thousands
+ADD     Addition time
+MULT    Multiplication time
+ACCESS  Access time
+YEAR    Year in which the model was introduced
+ORDER   The order of the observation in the dataset
+IBMDUM  Equal to one for IBM products, zero otherwise
+
+There are 137 observations.  Source: Gregory C. Chow
+
+Filename:  COLE
+
+THIS DATA SET CONTAINS THE FOLLOWING VARIABLES:
+
+DEVICE    = Computer Model Number
+FCS       = Year of First Customer Shipment
+CAP       = Capacity, in Megabtyes
+ACT       = Number of Actuators (read/write heads) on the Device
+ACCT      = Average Access Time in Milliseconds
+ROTD      = Average Rotation Delay in Milliseconds
+TR        = Transfer Rate in Kilobytes per Second
+ARDEN     = Areal Density in Kilobits per Squared Inch
+PRICE     = Price in Nominal Dollars
+SPEED     = ACT/(ACCT + ROTD + (2000/TR))
+
+OLDTR     = Old data series for TR (see note below)
+OLDARD    = Old data series for ARDEN (see note below)
+OLDPR     = Old data series for PRICE (see note below)
+OLDSP     = Old data series for SPEED (see note below)
+DUM72 to DUM84 = Year-specific dummy variables for observation year
+
+Note:  The original data used by Cole et al. in the regression results reported in Chapter 4 contained several data errors.  These errors have been corrected in the above data series.  However, in order to replicate the reported Cole results, the original data (with errors included) need to be used.  In the second set of 91 lines, there first appear the data series for TR, ARDEN, PRICE and SPEED with errors included; these variables are named OLDTR, OLDARD, OLDPR and OLDSP.  
+
+
+
+Variable Names: 
+
+   For first 91 lines: DEVICE YEAR FCS CAP ACT ACCT ROTD TR ARDEN PRICE SPEED
+   Then a blank line:
+   For second 91 lines: OLDTR OLDARD OLDPR OLDSP D72 D73 D74 D75 D76 D77 D78
+                        D79 D80 D81 D82 D83 D84
+
+There are 91 Observations.  Source: David Cartwright, US Dept.
+   of Commerce, Bureau of Economic Analysis 
+
+Filename: WAUGH
+
+PRICE    = Relative price per bunch of asparagus -- percentage of the top
+           quotation in the Farmers' Produce Market Report for the Massa-
+           chusetts Dept. of Agriculture for the day on which each lot was
+           sold 
+GREEN    = Number of inches of gren color on the asparagus, in hundredths
+           of inches
+NOSTALKS = Number of stalks of asparagus per bunch 
+DISPERSE = Variation in the size of the stalks -- the interquartile
+           coefficient
+
+Source:  F.V. Waugh, QUALITY AS A DETERMINANT OF VEGETABLE PRICES, New York:
+         Columbia University Press, 1929, pp. 127-131.
+
+There are 200 observations.
+

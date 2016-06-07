@@ -1,0 +1,225 @@
+The contents of seven files in the sub-directory CHAP8.DAT are as
+follows:
+
+Filename: PALDA
+
+YEAR      Year
+SALES     Current Year Sales in Thousands of Current Year Dollars
+ADVER     Advertising Outlay in Thousands of Current Year Dollars
+INC       Disposable Personal Income in Billions of Current Year
+          Dollars
+DUM1      Dummy Variable equals 1 during 1908-1914, else 0
+DUM2      Dummy Variable equals 1 during 1915-1925, else 0
+DUM3      Dummy Variable equals 1 during 1926-1940, else 0
+
+Time Span:  Annual, 1907 to 1960
+
+Number of Observations:  54, except for INC, for which 1907
+   data is unavailable, and has been set to zero.
+
+Source:  Kristian S. Palda, The Measurement of Cumulative 
+         Advertising Effects, Englewood Cliffs, NJ:  Prentice-
+         Hall, 1964, Table 1, p. 23, Table 2, pp. 32-33 and Table
+         6, p. 43.  
+
+Filename: PALDAM
+
+YRMON     Year and month YYMM (01 for January, 12 for December)
+MADV      Monthly Advertising Outlay in Current Year Dollars
+MSALES    Monthly Sales in Current Year Dollars
+
+Time Span:  Monthly, January 1907 thru December 1926 and
+            January 1937 through June 1960
+
+Number of Observations:  252
+
+Source:  Kristian S. Palda, The Measurement of Cumulative 
+         Advertising Effects, Englewood Cliffs, NJ:  Prentice-
+         Hall, 1964, Table 1, p. 23, Table 2, pp. 32-33 and Table
+         6, p. 43.  Monthly data from 1907:1 through 1926:12 and
+         1937:01 through 1953:12 is unpublished, and was provided
+         by Palda.
+
+FILENAME:  CAUSAL
+
+Part 1:
+
+OBSNO    Observation number, 1956:1 (561)to 1975:4 (754)
+ADN      Nominal advertising expenditures per capita, dollars, 
+         seasonally adjusted
+ADR      Real advertising expenditures per capita, 1972 dollars,
+         seasonally adjusted
+CTN      Nominal total personal consumption expenditures, thousands
+         of dollars per capita, seasonally adjusted
+CTR      Real total personal consumption expenditures, thousands of
+         1972 dollars per capita, seasonally adjusted
+CGN      Nominal personal consumption expenditures on goods, thou-
+         sands of dollars per capita, seasonally adjusted
+CGR      Real personal consumption expenditures on goods, thousands
+         of 1972 dollars per capita, seasonally adjusted
+UCTN     Nominal total personal consumption expenditures, thousands
+         of dollars per capita, not seasonally adjusted
+UCGN     Nominal personal consumption expenditures on goods,
+         thousands of dollars per capita, not seasonally adjusted
+YPCN     Nominal disposable income per capita, thousands of dollars,
+         seasonally adjusted
+YPCR     Real disposable income per capita, thousands of 1972 dollars, 
+         seasonally adjusted
+
+Part 2:
+
+DATE      The date of the observation, yr and quarter, 551 to 874
+EXPORTN   Nominal exports of goods and services, dollars per capita,
+          seasonally adjusted
+EXPORTR   Real exports of goods and services, 1972 dollars per capita,
+          seasonally adjusted
+GOVDEFN   US Government national defense purchases of goods and 
+          services, dollars per capita, seasonally adjusted
+GOVDEFR   Real US Government national defense purchases of goods and 
+          services, 1972 dollars per capita, seasonally adjusted
+GNONDEFN  US Government non-national defense purchases of goods and
+          services, dollars per capita, seasonally adjusted
+GNONDEFR  Real US Government non-national defense purchases of goods
+          and services, 1972 dollars per capita, seasonally adjusted
+POPN      Resident US population, thousands (computed as average of
+          three months' population estimate)
+MOODY     Moody AAA bond yield (computed as average of three months'
+          yields), percentage points
+
+Timespan:  Quarterly, 1956:1 to 1975:4
+
+Number of Observations:  80
+
+Source:  From R. Ashley, C. W. J. Granger, and R. Schmalensee, "Adver-
+         tising and Aggregate Consumption:  An Analysis of Causality,"
+         Econometrica, Vol. 48, No. 5, July 1980, pp. 1149-1167.  Data
+         kindly provided by Richard Schmalensee.  Data for Part 2 of 
+         this file from the US National Income and Product Accounts.
+
+FILENAME:  ORANGE
+
+YEAR      Year, 1910-1959 (the 1909-1910 crop year is coded as   
+          1910, 1910-1911 crop year as 1911, etc.)
+REV       Per capita deflated revenues, dollars
+INC       Per capita deflated consumer income, dollars
+QTY       Quantity of boxes of oranges sold per capita
+CURADV    Per capita deflated advertising expenditures in year t, 
+AVEADV    Per capita average deflated advertising expenditures in
+          preceding ten years, cents
+POP       US population, millions
+CPI       US consumer price index, 1947-49 = 100
+
+Timespan:  Annual, 1910 to 1959
+
+Number of Observations: 50
+
+Note:  Values of CURADV for 1908 and 1909 are .0204 and .0763, of 
+       AVEADV are 0.0000 and 0.0020, of POP are 87.9 and 89.7,
+       and of CPI are 39.0 and 38.0, respectively.
+
+Source: Marc Nerlove and Frederick V. Waugh, "Advertising Without
+        Supply Control:  Some Implications of a Study of the
+        Advertising of Oranges," Journal of Farm Economics, Vol. 
+        43, No. 4, Part I, November 1961, Table 1, p. 827.
+
+FILENAME:  CIGAD
+
+YEAR     Year, from 1930 to 1978
+SALES    Cigarette consumption, in millions of cigarettes
+SALESPC  Cigarette consumption per capita, population 14 and over
+INCPC    Real per capita income, population 14 and over (total pop?)
+RPRICE   Real cigarette price (CPI cigarettes/CPI all commodities)
+CIGTOB   Percentage of total tabacco consumed by cigarette consumption
+TOBPC    Tobacco consumption per capita, population 14 and over - units?
+PRTOB    Tobacco price index (CPI tobacco/CPI all commodities)
+DF       Standardized dummy variable for effects of Fairness Doctrine
+ASTOCK   Advertising stock - see article for description
+TIME     YEAR - 1900
+ADV      Nominal advertising expenditures
+TOBADV   Tobacco advertising expenditures
+REALAD   Real advertising expenditures
+TPERCIG  Tobacco per cigarette, in pounds per cigarette
+ASTOCK1  Advertising stock before the ad ban - see article for description
+ASTOCK2  Advertising stock after the ban - see article for description
+F        Market share of filter cigarettes - %
+L        Market share of cigarettes with 15 mg "tar" or less - %
+LNI      Logarithm of predicted value from income instrument regression -
+         see equation (5) on page 588 in article for description
+
+Timespan:  Annual, 1930-1978
+
+Number of Observations:  49
+
+Source:  Lynne Schneider, Benjamin Klein and Kevin M. Murphy, "Governmental 
+         Regulation of Cigarette Health Information," Journal of Law and ®MDUL¯®MDNM¯
+         Economics®MDUL¯®MDNM¯, Vol. 24, No. 3, December 1981, pp. 575-612.  Data given
+         Richard Schmalensee on SAS computer printout.
+
+FILENAME:  NICHOL
+
+YEAR     Year, 1931 to 1949
+CAMELS   Camels sales, billions of cigarettes
+LUCKY    Lucky Strike sales, billions of cigarettes
+CHESTER  Chesterfield sales, billions of cigarettes
+REYADV   Reynolds Advertising Outlay, Thousands of dollars (Camels)
+AMEADV   American Advertising Outlay, Thousands of dollars (Lucky)
+LIGADV   Liggett-Myers Advertising Outlay, Thousands of dollars (Chester)
+RLINC    Real Disposable Personal Income, Billions of 1958 dollars
+
+Timespan:  Annual, 1931 to 1949
+
+Number of Observations:  19
+
+Source:  William H. Nicholls, PRICE POLICIES IN THE CIGARETTE INDUSTRY,
+         Nashville: Vanderbilt University Press, 1951.  Sales data, 
+         Tables 25 and 40; advertising data, Tables 37 and 47.  Real
+         disposable personal income from the 1967 ECONOMIC REPORT OF 
+         THE PRESIDENT, Washington DC:  US Government Printing Office, 
+         Table B-16, p. 232.
+
+FILENAME:  QUAL
+
+Part I:
+
+OBSNO    Observation Number, 9/10-1973 to 7/8-1982, Nos. 1-54
+LQUAL    Mean of experts' creative device rating for ad
+LY1      Log of real sales in 1971$ Canadian, Region 1
+LY2      Log of real sales in 1971$ Canadian, Region 2
+LY3      Log of real sales in 1971$ Canadian, Region 3
+LY4      Log of real sales in 1971$ Canadian, Region 4
+LY5      Log of real sales in 1971$ Canadian, Region 5
+DMR      Dummy variable for introduction of product reform 
+PJF      Dummy for seasonal demand effect, 1 in January, February
+PND      Dummy for seasonal demand effect, 1 in November, December
+
+Part II: 
+
+OBSN     Observation Number, 9/10-1973 to 7/8-1982, Nos. 1-54
+LPR1     Log of the product price divided by the regional
+         consumer price index, Region 1
+LPR2     Log of the product price divided by the regional
+         consumer price index, Region 2
+LPR3     Log of the product price divided by the regional
+         consumer price index, Region 3
+LPR4     Log of the product price divided by the regional
+         consumer price index, Region 4
+LPR5     Log of the product price divided by the regional
+         consumer price index, Region 5
+
+Part III:
+
+OBS      Observation Number, 9/10-1973 to 7/8-1982, Nos. 1-54
+LADR1    Log of real advertising outlay, Region 1
+LADR2    Log of real advertising outlay, Region 2
+LADR3    Log of real advertising outlay, Region 3
+LADR4    Log of real advertising outlay, Region 4
+LADR5    Log of real advertising outlay, Region 5
+
+TIMESPAN:  September/October 1973 to July/August 1982, bimonthly
+
+NUMBER OF OBSERVATIONS:  54
+
+Source:  Data kindly provided by the authors.  Article is Stephen
+J. Arnold, Tae H. Oum, Bohumir Pazderka and Douglas W. Snetsinger, "Advertising Quality in Sales Response Models," JOURNAL OF MARKETING RESEARCH, Vol. 24, No. 1, February 1987, pp. 105-113.
+
+

@@ -1,0 +1,25 @@
+        DATA DISKETTE TO CORRESPOND WITH ERNST R. BERNDT,
+                 THE PRACTICE OF ECONOMETRICS
+
+This data diskette is written in ASCII format, and contains information
+and data on a number of data series.  The format is as follows.
+
+The data and corresponding data information is stored in a sub-directory
+entitled CHAPx.DAT for chapters x = 2 through 11.  Within each chapter sub-directory, there is a README.DOC file which should be read prior to using
+the data files.  In particular, the README.DOC file in each subdirectory
+CHAPx.DAT contains information on data file names, units of measurement, 
+data sources, etc. for chapter x in the text.
+
+In the root directory, there are two files.  This README.DOC file which you
+are now reading, and a data file called COLORTV, reproduced from Table 1.1 
+in the text.  The three variables in COLORTV are YEAR, PRICE (for price
+index), and CUMPROD (cumulative production, in millions).
+
+In order to copy this diskette, use the DOS command XCOPY /S, available on 
+DOS 3.2 and later versions.  Do not use the more common COPY command, for 
+the data diskette contains sub-directories, and COPY does not copy sub-
+directories intact, whereas the XCOPY /S command does.  Alternatively, you
+can use the DISKCOPY command, which reproduces the entire diskette, but 
+this command is time-consuming and cumbersome.  For further information on
+copying files, subdirectories and diskettes, see your DOS manual.
+

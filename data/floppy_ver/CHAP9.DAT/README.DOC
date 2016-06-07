@@ -1,0 +1,43 @@
+The following datafiles are found in the sub-directory CHAP9.DAT:
+
+Filename:  KLEM
+
+The first set of variables is as follows:
+
+YEAR      Year, beginning with 47 for 1947 and ending with 71 for 1971
+QY        Quantity of Gross Output
+PY        Price Index of Gross Output
+QK        Quantity of Capital Services
+PK        Rental Price Index for Capital Services
+QL        Quantity of Labor Input
+PL        Price Index for Labor Input
+QE        Quantity of Aggregate Energy Input
+PE        Price Index for Aggregate Energy Input
+QM        Quantity of Non-Energy Intermediate Materials
+
+The second set of variables is as follows:
+
+DATE      Year, beginning with 1947 and ending with 1971
+PM        Price Index for Non-Energy Intermediate Materials
+QV        Quantity of Value-Added Output
+PV        Price Index of Value-Added Output
+Z1        US Population
+Z2        US Population of Working Age
+Z3        Effective Rate of Sales and Excise Taxation
+Z4        Effective Rate of Property Taxation
+Z5        Government Purchases of Durable Goods
+
+The third set of variables is as follows:
+
+TIME      Year,beginning with 1947 and ending with 1971
+Z6        Government Purchases of Non-Durable Goods and Services
+Z7        Government Purchases of Labor Services
+Z8        Real Exports of Durable Goods
+Z9        Real Exports of Non-Durable Goods and Services
+Z10       US Tangible Capital Stock at the End of the Previous Year
+
+Note that all price indexes are in nominal terms, i.e. they are not deflated.
+
+Number of Observations:  25
+
+Source: E. R. Berndt and David O. Wood [1975].
